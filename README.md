@@ -1,4 +1,4 @@
-# python-api-challenge
+## python-api-challenge
 
 ## Table of Contents
 * [Tools](#tools)
@@ -7,9 +7,9 @@
 * [Analysis](#analysis)
 
 ## Tools
-- Python library: citipy, geoViews
+- Python libraries: citipy, geoViews, numpy,scipy
 - API: OpenWeatherMap, Geoapify
-- JSON
+- PANDAS
 - Jupyter
 
 ### WeatherPy: 
@@ -21,8 +21,9 @@ Generated random geographic coordinates and a list of cities using `citypy`.
 
 Used the OpenWeatherMap API to retrieve weather data from the generated cities list. Exported the city data to a .csv file (city_data.csv)
 
-Created a series of scatter plots to showcase the following:
-* Latitude vs. Temperature 
+Created a series of scatter plots with computed linear regression for the following:
+* Latitude vs. Temperature
+  ![regression] 
 * Latitude vs. Humidity 
 * Latitude vs. Cloudiness 
 * Latitude vs. Wind Speed
