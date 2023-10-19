@@ -19,9 +19,9 @@ Used Python requests, APIs, and JSON traversals to answer
 #### Key Steps:
 Generated random geographic coordinates and a list of cities using `citypy`. 
 
-Used the OpenWeatherMap API to retrieve weather data from the generated cities list. Exported the city data to a .csv file (city_data.csv)
+Used the [OpenWeatherMap API](https://www.markdownguide.org/basic-syntax/) to retrieve weather data from the generated cities list. Exported the city data to a .csv file (city_data.csv)
 
-Created a series of scatter plots with computed linear regression for the following:
+Created a series of scatter plots with linear regression for the following:
 * Latitude vs. Temperature
   ![regression] 
 * Latitude vs. Humidity 
