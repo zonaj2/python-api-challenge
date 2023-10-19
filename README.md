@@ -31,10 +31,12 @@ Computed the linear regression for each relationship above. The plots were separ
 
 ### VacationPy: 
 Used Python requests, APIs, and JSON traversals to answer:  
-`How can we use weather data to plan future vacations according to our ideal weather conditions?`
+`How can we use weather data to plan future vacations according to our ideal weather conditions?`  
+I defined my ideal weather conditions as cities with Humidity >= 40% and Temperature <= 70 degrees F.  
 
 Created map visualizations using Geoapify API and geoViews Python library.
 The list of cities and weather data generated in Part 1 was used to plan future vacations. The main focus was to use the Geoapify API and the geoViews Python library to employ Python skills to create map visualizations.
+
 #### Key Steps:
 A map was created that displayed a point for every city in the city_data_df DataFrame. The size of the point was the humidity in each city.  
 
