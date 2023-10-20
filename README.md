@@ -21,14 +21,15 @@ Generated random geographic coordinates and a list of cities using `citypy`.
 
 Used the [OpenWeatherMap API](https://openweathermap.org/api/one-call-3#how) to retrieve weather data from the generated cities list. Exported the city data to a .csv file (city_data.csv)
 
-Created a series of scatter plots with linear regression for the following:
+Created a series of scatter plots with linear regression.  the plots were separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). A function was defined in order to create linear regression plots across all the relationships.This function was used to create a series of scatter plots for each relationship. A linear regression line, the model's formula, and the r values were included in the visualization.
+
 * Latitude vs. Temperature
-  ![regression] 
+  [vis1](Images/ 
 * Latitude vs. Humidity 
 * Latitude vs. Cloudiness 
 * Latitude vs. Wind Speed
 
-Computed the linear regression for each relationship above. The plots were separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). A function was defined in order to create linear regression plots across all the relationships.This function was used to create a series of scatter plots for each relationship. A linear regression line, the model's formula, and the r values were included in the visualization.
+Computed the linear regression for each relationship above. The plots were 
 
 ### VacationPy: 
 Used Python requests, APIs, and JSON traversals to answer:  
